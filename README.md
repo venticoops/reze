@@ -8,5 +8,5 @@ original folder looks like this as for 4th jan
 DON'T STEAL, USE FOR PRACTICE<br>
 </p>
 <p align=center>
-Till is a Discord bot made with love, its purpose is to entertain and help its creator comprehend the nextcord framework better.
+Reze is a Discord bot made with love, its purpose is to entertain and help its creator comprehend the nextcord framework better.
 </p>
