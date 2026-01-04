@@ -1,0 +1,25 @@
+{
+  "oc_list": [
+    "Acadia","Ali","Anne","Antho","Ari","Bee","Benja","Beome","Cass","Dakarai",
+    "Danny","Edgar","Eli","Elisha","Erik","Fedora","Heros","Hisoka","Hry",
+    "Isaac","Jex","Kai","Kazu","Koi","Kory","Krisha","Lance","Leo","Lucrecia",
+    "Mae","Manager","Mati","Max","Mei","Mercury","Mich","Mimi","Ming","Nakim",
+    "Nico","Nix","Pax","Rakesh","Raymond","Raz","Renata","Rox","Santi",
+    "Shailoh","Shein","Silver","Tase","Tyler","Vik","Amy","Fudashi","Howard",
+    "Jawi","Kori","Lia","Quinn","Ray","Sam","Tonoto","Vic"
+  ],
+
+  "frai_oc": [
+    "Kory","Leo","Eli","Acadia","Santi","Tase","Raz","Ray","Manager","Benja",
+    "Amy","Raymond","Rakesh","Isaac","Mae","Renata","Nakim","Fedora","Anne",
+    "Hry","Beome","Dakarai","Cass","Max","Erik","Ming","Nico","Quinn","Kori",
+    "Fudashi","Tonoto"
+  ],
+
+  "kei_oc": [
+    "Ali","Antho","Ari","Bee","Danny","Edgar","Elisha","Heros","Hisoka","Jex",
+    "Kai","Kazu","Koi","Krisha","Lance","Lucrecia","Mati","Mei","Mercury",
+    "Mich","Mimi","Nix","Pax","Rox","Shailoh","Shein","Silver","Tyler","Vik",
+    "Howard","Jawi","Lia","Sam","Vic"
+  ]
+}
