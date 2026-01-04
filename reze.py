@@ -57,48 +57,6 @@ def save_json(path, data):
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=4, ensure_ascii=False)
 
-# ----------------------------------
-
-@bot.slash_command(name="gift", description="receive a gift from reze")
-async def gift_slash(interaction: nextcord.Interaction):
-    embed = nextcord.Embed(description= """_ _
-    _　_　　　↷　　₊　　**Ha__ppy__  Christmas**　　♡
-    _　_ ˖　　`💜`　　*holi corazón, espero t guste <3*　　ɞ₊　⊹
-    
-    _ _　　　　　　　　　**¿Cómo ver el regalo?** 
-    _ _　`🪻`　　Toca el primer botón, lees la introducción, 
-    _ _　`‼️`　　y cuando veas algo que aún no has visto,  
-    _ _　`☔`　　toca el siguiente botón! No te vayas a enredar. 
-    _ _　`💌`　　Recuerda q nuestro amor no se mide solo con regalos, 
-    _ _　`🫐`　　y por último me das un besito de recompensa :3 
-    
-    _ _ 　　　　　` disfruta tu regalo preciosa `　　!!
-    _ _""", color=0x131416)
-    embed.set_image(url="https://files.catbox.moe/5wfdzw.gif")
-
-    alink = Button(label="𐐪﹕　One　!", url="https://rentry.co/rezeslove")
-    blink = Button(label="𐐪﹕　Two　!", url="https://www.mediafire.com/folder/ud5vphqcvr7qg/skins")
-    clink = Button(label="𐐪﹕　Three　!", style=ButtonStyle.secondary)
-
-    clinkback = Embed(description="""_ _
-    ⟡　　　`💜`　　---　　　　　　　♡ 　　　　　　　　⊹   
-    　　*Feliz navidad mor, gracias por darme motivos para seguir adelante. Eres mi luz, te amo y adoro muchísimo.*
-    _ _　　　　　⑅　　　　　　　　　⬚　　　　　　　　　✿""", color=0x131416)
-    clinkback.set_image(url="https://i.postimg.cc/gk9H8GQb/IMG-4150.png")
-    clinkback.set_footer(text="your freckles fit reze so perfectly <3")
-
-    async def clink_callback(interaction):
-        await interaction.response.send_message(embed=clinkback)
-
-    clink.callback = clink_callback
-
-    myview = View(timeout=600)
-    myview.add_item(alink)
-    myview.add_item(blink)
-    myview.add_item(clink)
-
-    await interaction.response.send_message(embed=embed, view=myview)
-
 # --------------------------------
 
 ocs = json.load(open(r"C:\Users\Usuario\Desktop\all\reze\data\ocs.json"))
@@ -284,3 +242,4 @@ async def testing(ctx):
 # --------------------------------
 
 bot.run(TOKEN)
+
